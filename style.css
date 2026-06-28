@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    min-height: 500px;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.container, .contaier2 {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+}
+
+.title {
+    flex: 1;
+    font-family: Roboto, sans-serif;
+    color: #f9faf7;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #3882f6;
+    color: #f9faf7;
+}
+
+.container3 {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intes h1 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.background2 {
+    min-height: 500px;
+}
+
+.im {
+    display: flex;
+}
+
+.im img {
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 0;
+}
+
+.background3 {
+    min-height: 500px;
+    background-color: #e5e7eb;
+}
+
+.text1 p {
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+
+.footer {
+    max-width: 870px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foottext h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-family: Roboto, sans-serif;
+}
+
+.foottext {
+    margin-top: 200px;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.end p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1f2937;
+    font-family: Roboto, sans-serif;
+    margin-top: 0;
+    margin-right: 40px;
+}
